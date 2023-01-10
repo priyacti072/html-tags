@@ -1,0 +1,77 @@
+*{
+    margin:auto;
+    padding:2px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:body {
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: '';
+    background-color: #F5EA5A;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .4;/*Yransparancy*/
+}
+
+/* Logo and Image */
+
+/* Navigation Bar: Logo and Image */
+#logo {
+    margin: 10px 34px;
+}
+
+#logo img {
+    height: 60px;
+    margin: 3px 6px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul {
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a {
+    color: #1A120B;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: #EB455F;
+    background-color: white;
+}
+body{
+    font-size: 35px;
+    background-color: #B3FFAE;
+}
+#images table{
+    font-size: 30px;
+}
+

@@ -1,0 +1,194 @@
+<html>
+    <head>
+        <title>Html tags</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="C:\Web_Development\html\img1.jpg">
+    </head>
+    <body>
+        <nav id="navbar">
+                <div id="logo">
+                    <img src="C:\Web_Development\html\img.png" alt="html tags">
+                </div>
+        
+                <ul>
+                    <li class="item"><a href="#home">Home</a></li>
+                    <li class="item"><a href="#formatting">Formatting</a></li>
+                    <li class="item"><a href="#links">Links</a></li>
+                    <li class="item"><a href="#images">Images</a></li>
+                    <li class="item"><a href="#forms">Forms</a></li>
+                </ul>
+        </nav>
+        <section id="home">
+            <hr  noshade size="3">
+            <h1>HEADINGS</h1>
+           <p>
+           <h1>Heading 1</h1>
+           <h2>Heading 2</h2>
+           <h3>Heading 3</h3>
+           <h4>Heading 4</h4>
+           <h5>Heading 5</h5>
+           <h6>Heading 6</h6>
+           <hr noshade size="3">
+           </p>  
+           <h2>Paragraphs</h2>
+           <p>This is a paragraph.</p>
+           <p>This is another paragraph.</p>
+           <hr  noshade size="3">
+           <h2>Styles</h2>
+           <p>I am normal</p>
+           <p style="color:red;">I am red</p>
+           <p style="color:blue;">I am blue</p>
+           <p style="font-size:50px;">I am big</p>
+           <hr noshade size="3">   
+        </section>
+
+        <section id="formatting">
+         <h2>Formatting</h2>
+         <p>
+            <b>  Bold text </b><br>
+            <strong>  Important text </strong><br>
+            <i>  Italic text </i><br>
+            <em>  Emphasized text </em><br>
+            <mark>  Marked text </mark><br>
+            <small>  Smaller text </small><br>
+            <del>  Deleted text </del><br>
+            <ins>  Inserted text</ins><br>
+            <sub>  Subscript text </sub><br>
+            <sup>  Superscript text </sup>
+         </p>
+         <p><b>This text is bold</b></p>
+         <p><i>This text is italic</i></p>
+         <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+         <hr noshade size="3">
+        </section>
+
+        <section id="links">
+            <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>    
+            <h2>Absolute URLs</h2>
+            <p><a href="https://www.w3.org/">W3C</a></p>
+            <p><a href="https://www.google.com/">Google</a></p>
+
+            <h2>Relative URLs</h2>
+            <p><a href="html_images.asp">HTML Images</a></p>
+            <p><a href="/css/default.asp">CSS Tutorial</a></p>
+            <h2>Image as a Link</h2>
+            <p>The image below is a link. Try to click on it.</p>
+            <a href="default.asp"><img src="C:\Web_Development\html\smiley.gif" alt="HTML tutorial" style="width:50px;height:50px;"></a>
+            <h2>Link to an Email Address</h2>
+            <p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
+            <p><a href="mailto:someone@example.com">Send email</a></p>
+            <h2>Button as a Links</h2>
+            <p>Click the button to go to the HTML tutorial.</p>
+            <button onclick="document.location='default.asp'">HTML Tutorial</button>
+            <h2>Link Titles</h2>
+            <p>The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+            <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+        </section>
+
+        <section id="images">
+            <h2>HTML Image</h2>
+            <img src="C:\Web_Development\html\girl.jpeg" alt="girl">
+            <h2>Animated Images</h2>
+            <p>HTML allows moving images:</p>
+            <img src="C:\Web_Development\html\img 2.gif" alt="Computer man" style="width:60px;height:60px;">
+            <h2>Floating Images</h2>
+            <p><strong>Float the image to the right:</strong></p>
+            <p>
+            <img src="smiley.gif" alt="C:\Web_Development\html\smiley.gif" style="float:right;width:42px;height:42px;">
+            A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+            </p>
+            <p><strong>Float the image to the left:</strong></p>
+            <p>
+            <img src="smiley.gif" alt="C:\Web_Development\html\smiley.gif" style="float:left;width:42px;height:42px;">
+            A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+            </p>
+            <hr  noshade size="3">            
+            <table>
+               <tr>
+                 <th>Abbreviation</th>
+                 <th>File Format</th>
+                 <th>File Extension</th>
+               </tr>
+               <tr>
+                  <td>APNG</td>
+                  <td>Animated Portable Network Graphics</td>
+                  <td>.apng</td>
+               </tr> 
+               <tr>
+                  <td>GIF</td>
+                  <td>Graphics Interchange Format	</td>
+                  <td>.gif</td>
+                </tr> 
+                <tr>
+                    <td>ICO</td>
+                    <td>Microsoft Icon</td>
+                    <td>.ico, .cur</td>
+                </tr> 
+                <tr>
+                    <td>JPEG</td>
+                    <td>Joint Photographic Expert Group image</td>
+                    <td>.jpg, .jpeg, .jfif, .pjpeg, .pjp</td>
+                </tr> 
+                <tr>
+                    <td>PNG</td>
+                    <td>Portable Network Graphics</td>
+                    <td>.png</td>
+                </tr>         
+                <tr>
+                    <td>SVG</td>
+                    <td>Scalable Vector Graphics</td>
+                    <td>.svg</td>
+                </tr>                      
+            </table>
+            <hr  noshade size="3">
+            <h2>Chapter Summary</h2>
+            <ol>
+                <li>Use the HTML <img> element to define an image.</li>
+                <li>Use the HTML src attribute to define the URL of the image.</li>
+                <li>Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed.</li>
+                <li>Use the HTML width and height attributes or the CSS width and height properties to define the size of the image.</li>
+                <li>Use the CSS float property to let the image float to the left or to the right.</li>
+            </ol>
+            <hr  noshade size="3">
+        </section> 
+        <section id="forms">
+            <h2>Checkboxes</h2>
+            <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+            
+            <form action="/action_page.php">
+              <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <label for="vehicle1"> I have a bike</label><br>
+              <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+              <label for="vehicle2"> I have a car</label><br>
+              <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+              <label for="vehicle3"> I have a boat</label><br><br>
+              <input type="submit" value="Submit">
+            </form> 
+            <hr noshade size="3">
+            <h2>Radio Buttons</h2>
+
+            <p>Choose your favorite Web language:</p>
+            
+            <form>
+              <input type="radio" id="html" name="fav_language" value="HTML">
+              <label for="html">HTML</label><br>
+              <input type="radio" id="css" name="fav_language" value="CSS">
+              <label for="css">CSS</label><br>
+              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+              <label for="javascript">JavaScript</label>
+            </form> 
+            <hr noshade size="3">
+            <h2>Text input fields</h2>
+
+            <form>
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" value=""><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" value=""><br><br>
+              <input type="submit" value="Submit">
+            </form>
+        </section>
+
+    </body>
+</html>        
